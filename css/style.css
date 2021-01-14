@@ -1,0 +1,147 @@
+body{
+
+}
+
+header{
+    background: #fffbf0;
+}
+.nav-logo{
+
+width: 125%;
+}
+
+.nav-list{
+
+}
+.nav-list a{
+
+margin-left: 30px;
+
+font-size: 18px;
+
+font-weight: 500;
+}
+.nav-list a:hover {
+color:#fabe4c;
+    
+}
+.nav-list a:active {
+
+ color:#fabe4c;
+    
+}
+.hero-section h1{
+    color: #363958;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+}
+.hero-section span{
+    color: #fabe4c;
+}
+.hero-section p{
+    
+font-size: 18px;
+    
+color: #5f5f5f;
+    
+font-weight: 400;
+}
+
+.btn-hero{
+    background: #9cb53a;
+    color: #fff;
+    font-size: 20px;
+    /* padding: 6px; */
+    padding: 10px 15px;
+}
+
+.btn-hero i{
+    
+margin-right: 12px;
+}
+
+.btn-hero:hover{
+    background: #ffc75c;
+    color: #fff;
+   
+}
+
+.penguin-card-footer{
+    border: 0;
+    background: #fff;
+    padding-bottom: 20px;
+
+}
+.penguin-card-footer h3{
+    
+color: #fabe4c;
+    
+font-weight: 700;
+
+}
+
+.btn-card{
+
+background: #9cb53a;
+
+color: #fff;
+
+padding: 10px 15px;
+
+font-weight: 500;
+}
+.btn-card i{
+    
+margin-right: 8px;
+}
+.btn-card:hover{
+
+    background: #ffc75c;
+    
+    color: #fff;
+    }
+
+.penguin-card{
+    border: 0;
+
+}
+.img-bg{
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.img-bg img{
+    height: 250px;
+   
+}
+.women-jacket h2{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.nav-top{
+}
+
+@media(max-width: 576px){
+
+    .nav-logo{
+        width:80% ;
+
+    
+    }
+
+    .hero-section h1{
+        
+        font-size:40px;
+       
+    
+    }
+
+    
+}

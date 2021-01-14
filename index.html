@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>penguin-fashion</title>
 </head>
 <body>
@@ -16,49 +18,56 @@
         <div class="container">
 
             <!--navbar-started-->
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img class="img-fluid" src="images/Logo, Icon/Group 33072.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
 
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Product</a>
-                      </li>
 
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">About us</a>
-                      </li>
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between ">
+             
+                <a class="navbar-brand  nav-logo" href="#"><img class="img-fluid w-50" src="images/Logo, Icon/Group 33072.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                  <ul class="navbar-nav nav-top ml-auto">
+                    <li class="nav-item nav-list">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item nav-list">
+                      <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item nav-list">
+                      <a class="nav-link " href="#" >About us</a>
+                    </li>
 
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Contact us</a>
-                      </li>
-                    
-                 
-                  </div>
+                    <li class="nav-item nav-list">
+                      <a class="nav-link " href="#" >Contact us</a>
+                    </li>
+                  </ul>
+                  
                 </div>
-              </nav>
+             
+            </nav>
 
-              <!--navbar-started-->
+
+
+
+
+          
+      
+           
+              <!--navbar-end-->
 
               <!--hero-section-started-->
 
               <section class="hero-section">
-                  <div class="row">
+                  <div class="row d-flex align-items-center p-5">
                       <div class="col-md-6">
 
-                        <h1>BE THE PENGUINE OF WINTER</h1>
+                        <h1><span>BE THE PENGUINE</span> OF WINTER</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <button type="button" class="btn btn-warning">Buy Now</button>
+                        <button type="button" class="btn btn-hero"><i class="fas fa-shopping-cart icon-hero"></i>Buy Now</button>
                       </div>
                       <div class="col-md-6">
-                          <img src="images/Image/" alt="">
+                          <img class="img-fluid" src="images/Image/banner.png" alt="">
                       </div>
                   </div>
 
@@ -69,6 +78,184 @@
         </div>
 
     </header>
-    
+
+    <main class="container">
+
+      <section class="women-jacket mt-5">
+        <h2>WOMEN JACKET</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col ">
+            <div class="card penguin-card shadow h-100">
+             <div class="img-bg m-3">
+              <img src="images/Image/SeekPng 1.png" class="img-fluid mx-auto" class="card-img-top" alt="...">
+             </div>
+              <div class="card-body">
+                <h5 class="card-title">Yellow Coat Jacket</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                  printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-card"><i class="fas fa-shopping-cart icon-hero"></i>BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card penguin-card shadow h-100">
+              <div class="img-bg m-3">
+                <img src="images/Image/PngItem_2597366 1.png" class="img-fluid mx-auto" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ladies Jacket</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                  printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-card"><i class="fas fa-shopping-cart icon-hero"></i>BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card penguin-card shadow h-100">
+              <div class="img-bg m-3">
+                <img src="images/Image/image 15.png" class="img-fluid mx-auto" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Woman Leather Jacket</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                  printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-card"><i class="fas fa-shopping-cart icon-hero"></i>BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--man-section-started-->
+      <section class="women-jacket mt-5" id="product">
+        <h2>Man Jacket</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col ">
+            <div class="card penguin-card shadow h-100">
+             <div class="img-bg m-3">
+              <img src="images/Image/image 11.png" class="img-fluid mx-auto" class="card-img-top" alt="...">
+             </div>
+              <div class="card-body">
+                <h5 class="card-title">Yellow Coat Jacket</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                  printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-card"><i class="fas fa-shopping-cart icon-hero"></i>BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card penguin-card shadow h-100">
+              <div class="img-bg m-3">
+                <img src="images/Image/toppng 1.png" class="img-fluid mx-auto" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ladies Jacket</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                  printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-card"><i class="fas fa-shopping-cart icon-hero"></i>BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card penguin-card shadow h-100">
+              <div class="img-bg m-3">
+                <img src="images/Image/vippng 1.png" class="img-fluid mx-auto" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Woman Leather Jacket</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                  printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-card"><i class="fas fa-shopping-cart icon-hero"></i>BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--man-section-end-->
+
+      <!--features-section-start-->
+      <section class="features-section mt-5 mb-5 pb-5 pt-5">
+
+        <div class="row">
+          <div class="col-md-5">
+            <div class="d-flex flex-column bd-highlight mb-3">
+              <div class="p-3 rounded-1 mb-4 bd-highlight d-flex justify-content-around align-items-center shadow ">
+                <div class="img">
+                  <img src="images/Logo, Icon/image 12.png" class="img-fluid w-75" alt="">
+                </div>
+                <div class="img-content">
+                  <h3>Find the Perfect Fit</h3>
+                <p>Everybody is different, which is why we
+                  offer styles for every body</p>
+                </div>
+              </div>
+
+
+              <!--*****************************-->
+
+              <div class="p-3 rounded-1 mb-4 bd-highlight d-flex justify-content-around align-items-center shadow ">
+                <div class="img">
+                  <img src="images/Logo, Icon/image 13.png" class="img-fluid w-75" alt="">
+                </div>
+                <div class="img-content">
+                  <h3>Free Exchanges</h3>
+                <p>One of the many reasons you can shop
+                  with peace of mind.</p>
+                </div>
+              </div>
+
+              <!--*****************************-->
+          
+
+ 
+              <div class="p-3 rounded-1 mb-4 bd-highlight d-flex justify-content-around align-items-center shadow ">
+                <div class="img">
+                  <img src="images/Logo, Icon/image 14.png" class="img-fluid w-75" alt="">
+                </div>
+                <div class="img-content">
+                  <h3>Contact Our Seller</h3>
+                <p>They are here to help you. That's quite 
+                  literally what we pay them for</p>
+                </div>
+              </div>
+
+             
+            </div>
+
+          </div>
+          <div class="col-md-7">
+            <img src="images/Logo, Icon/XMLID 1.png" class="img-fluid"  alt="">
+          </div>
+        </div>
+
+      </section>
+
+      <!--features-section-end-->
+
+    </main>
+
+    <footer>
+      <p class="text-center">2021 Copyright ©penguin-fashion , All rights Reserved.</p>
+
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
